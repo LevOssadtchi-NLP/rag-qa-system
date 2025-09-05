@@ -1,0 +1,22 @@
+# Core
+python-dotenv>=1.0.1
+pyyaml>=6.0.2
+tqdm>=4.66.4
+numpy>=1.26.4
+pandas>=2.2.2
+
+# Docs IO
+pdfminer.six>=20240706
+python-docx>=1.1.2
+
+# ML
+sentence-transformers>=3.0.1
+transformers>=4.43.3
+torch>=2.3.1
+faiss-cpu>=1.8.0.post1
+
+# App
+streamlit>=1.36.0
+
+# Tests
+pytest>=8.2.0
