@@ -1,0 +1,20 @@
+# Конфигурация для RAG системы
+data:
+  input_dir: "data/"
+  supported_formats: ["pdf", "txt", "docx"]
+
+embeddings:
+  model: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  device: "cpu"  # или "cuda" для GPU
+
+chroma:
+  persist_directory: "./chroma_db"
+  collection_name: "rag_collection"
+
+generation:
+  model: "gpt2"
+  max_new_tokens: 300
+  temperature: 0.4
+
+streamlit:
+  port: 8501
