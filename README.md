@@ -64,7 +64,6 @@
 Файл `config.yaml` используется для настройки параметров:
 
 ```yaml
-# config.yaml
 embedding_model: "название или путь к embedding модели"
 llm_model: "название или путь к LLM"
 index_path: "путь/к/хранилищу/индекса"
