@@ -96,9 +96,3 @@ python run_rag.py --input_dir ./data --question "Что такое Retrieval-Aug
 ├── LICENSE              # лицензия MIT
 └── README.md            # этот файл
 ```
-
----
-
-## ℹ Контакты
-
-Если у вас есть предложения, баг-репорты или идеи — открывайте issue или предлагайте pull request!
